@@ -1,0 +1,164 @@
+<!DOCTYPE YACodeBlocks SYSTEM "support/save_format.dtd">
+<YACodeBlocks ya-version="62" lang-version="17">
+<Pages><Page page-name=" " page-color="237 245 211" page-width="1280" page-height="1600" page-drawer="My Definitions" >
+<PageBlocks>
+<Block id="1745" genus-name="Button-Click" has-focus="yes" >
+<Location><X>118</X><Y>15</Y></Location>
+<Label>btnProfile.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1749" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>asWeb.DataUri</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1749" genus-name="componentSetter" >
+<Location><X>146</X><Y>48</Y></Location>
+<Label>asWeb.DataUri</Label>
+<BeforeBlockId>1745</BeforeBlockId>
+<AfterBlockId>1751</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1753" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="1751" genus-name="ActivityStarter-StartActivity" >
+<Location><X>146</X><Y>86</Y></Location>
+<Label>asWeb.StartActivity</Label>
+<BeforeBlockId>1749</BeforeBlockId>
+</Block>
+<Block id="1753" genus-name="text" >
+<Location><X>292</X><Y>51</Y></Location>
+<Label>http:\/\/www.aranfielder.com\/</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1749" ></BlockConnector></Plug>
+</Block>
+<Block id="1623" genus-name="Button-Click" >
+<Location><X>121</X><Y>128</Y></Location>
+<Label>btnAbout.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1639" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>asWeb.DataUri</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1639" genus-name="componentSetter" >
+<Location><X>149</X><Y>161</Y></Location>
+<Label>asWeb.DataUri</Label>
+<BeforeBlockId>1623</BeforeBlockId>
+<AfterBlockId>1641</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1655" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="1641" genus-name="ActivityStarter-StartActivity" >
+<Location><X>149</X><Y>199</Y></Location>
+<Label>asWeb.StartActivity</Label>
+<BeforeBlockId>1639</BeforeBlockId>
+</Block>
+<Block id="1655" genus-name="text" >
+<Location><X>295</X><Y>164</Y></Location>
+<Label>http:\/\/www.aranfielder.com\/about.html</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1639" ></BlockConnector></Plug>
+</Block>
+<Block id="1635" genus-name="Button-Click" >
+<Location><X>124</X><Y>483</Y></Location>
+<Label>btnProjects.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1651" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>asWeb.DataUri</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1651" genus-name="componentSetter" >
+<Location><X>152</X><Y>516</Y></Location>
+<Label>asWeb.DataUri</Label>
+<BeforeBlockId>1635</BeforeBlockId>
+<AfterBlockId>1653</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1659" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="1653" genus-name="ActivityStarter-StartActivity" >
+<Location><X>152</X><Y>554</Y></Location>
+<Label>asWeb.StartActivity</Label>
+<BeforeBlockId>1651</BeforeBlockId>
+</Block>
+<Block id="1659" genus-name="text" >
+<Location><X>298</X><Y>519</Y></Location>
+<Label>http:\/\/www.aranfielder.com\/project.html</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1651" ></BlockConnector></Plug>
+</Block>
+<Block id="1631" genus-name="Button-Click" >
+<Location><X>123</X><Y>364</Y></Location>
+<Label>btnPhotos.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1643" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>asWeb.DataUri</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1643" genus-name="componentSetter" >
+<Location><X>151</X><Y>397</Y></Location>
+<Label>asWeb.DataUri</Label>
+<BeforeBlockId>1631</BeforeBlockId>
+<AfterBlockId>1645</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1661" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="1645" genus-name="ActivityStarter-StartActivity" >
+<Location><X>151</X><Y>435</Y></Location>
+<Label>asWeb.StartActivity</Label>
+<BeforeBlockId>1643</BeforeBlockId>
+</Block>
+<Block id="1661" genus-name="text" >
+<Location><X>297</X><Y>400</Y></Location>
+<Label>http:\/\/www.aranfielder.com\/photo.html</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1643" ></BlockConnector></Plug>
+</Block>
+<Block id="1627" genus-name="Button-Click" >
+<Location><X>120</X><Y>247</Y></Location>
+<Label>btnContact.Click</Label>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="1647" ></BlockConnector>
+</Sockets>
+</Block>
+<BlockStub><StubParentName>asWeb.DataUri</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1647" genus-name="componentSetter" >
+<Location><X>148</X><Y>280</Y></Location>
+<Label>asWeb.DataUri</Label>
+<BeforeBlockId>1627</BeforeBlockId>
+<AfterBlockId>1649</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1657" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="1649" genus-name="ActivityStarter-StartActivity" >
+<Location><X>148</X><Y>318</Y></Location>
+<Label>asWeb.StartActivity</Label>
+<BeforeBlockId>1647</BeforeBlockId>
+</Block>
+<Block id="1657" genus-name="text" >
+<Location><X>294</X><Y>283</Y></Location>
+<Label>http:\/\/www.aranfielder.com\/contact.html</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1647" ></BlockConnector></Plug>
+</Block>
+</PageBlocks>
+</Page>
+
+</Pages><YoungAndroidMaps><YoungAndroidUuidMap>
+<YoungAndroidUuidEntry uuid="1867863994" component-id="asWeb" component-genus="ActivityStarter" component-version="3" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="418966905" component-id="lblTagLine" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1133891190" component-id="Label6" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1807170629" component-id="VerticalArrangement1" component-genus="VerticalArrangement" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-2117179270" component-id="btnPhotos" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-213395151" component-id="Label3" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1261760056" component-id="btnProfile" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-172377972" component-id="btnContact" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="264411863" component-id="Label4" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1041063719" component-id="Label7" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="0" component-id="Screen1" component-genus="Form" component-version="0" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-881032461" component-id="btnAbout" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1536219835" component-id="btnProjects" component-genus="Button" component-version="4" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-750236725" component-id="HorizontalArrangement1" component-genus="HorizontalArrangement" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="1048863770" component-id="VerticalArrangement2" component-genus="VerticalArrangement" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1603658520" component-id="Profile" component-genus="HorizontalArrangement" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-431757173" component-id="Label5" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="517881221" component-id="lblCompanyName" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+</YoungAndroidUuidMap>
+</YoungAndroidMaps>
+</YACodeBlocks>
